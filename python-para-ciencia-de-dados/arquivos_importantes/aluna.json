@@ -1,0 +1,12 @@
+{
+    "nome": "Sthefanie",
+    "idade": 27,
+    "cidade": "Ponta Grossa",
+    "cursos": ["Python", "Data Science", "Machine Learning"],
+    "matriculada": true,
+    "notas": {
+        "Python": 9.5,
+        "Data Science": 8.7,
+        "Machine Learning": 9.0
+    }
+}

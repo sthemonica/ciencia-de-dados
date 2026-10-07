@@ -1,0 +1,9 @@
+{
+    "nome": "Ana",
+    "idade": 29,
+    "cursos": [
+        "Python",
+        "SQL",
+        "Pandas"
+    ]
+}
