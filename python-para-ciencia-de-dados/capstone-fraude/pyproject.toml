@@ -1,0 +1,27 @@
+[project]
+name = "capstone-fraude"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sthemonica", email = "sthemonica@hotmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "notebook>=7.6.3",
+    "pandas>=3.0.6",
+    "openpyxl",
+    "matplotlib>=3.11.2",
+    "seaborn>=0.13.2",
+    "plotly>=7.1.0",
+    "nbformat>=5.11.1",
+]
+
+[project.scripts]
+capstone-fraude = "capstone_fraude:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
